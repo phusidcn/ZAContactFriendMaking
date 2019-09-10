@@ -7,9 +7,10 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "../ContactFriendMaking/Business/ContactBusiness.h"
 
 @interface ContactFriendMakingTests : XCTestCase
-
+@property ContactBussiness* testInstance;
 @end
 
 @implementation ContactFriendMakingTests
@@ -22,9 +23,36 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
 }
 
-- (void)testExample {
+- (void)testSearching {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    NSArray* searchText = @[@"A",@"B",@"C"];
+    NSArray* searchResult = @[@3,@1,@4];
+    
+}
+
+- (void)testSelectContact {
+    // This is an example of a functional test case.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+}
+
+- (void)testDeselectContact {
+    // This is an example of a functional test case.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+}
+
+- (void)testSelectWhileSearch {
+    // This is an example of a functional test case.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+}
+
+- (void)testDeselectWhileSearch {
+    // This is an example of a functional test case.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
 }
 
 - (void)testPerformanceExample {
