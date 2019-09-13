@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A928922428BB69ACEE444CC /* libPods-ContactFriendMakingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 346F4C7EF2CC6DBDF6D0E2DC /* libPods-ContactFriendMakingTests.a */; };
+		2411BAC0DA67BA9BD1E67031 /* libPods-ContactFriendMaking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5D9994D6F17FD6034C9B8A /* libPods-ContactFriendMaking.a */; };
 		532FE35F22EC41A1003E4726 /* ContactInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 532FE35E22EC41A1003E4726 /* ContactInstance.m */; };
 		5332745A22ED42F200BB643D /* ContactBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332745922ED42F200BB643D /* ContactBusiness.m */; };
 		5332745D22ED435E00BB643D /* ContactWithStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332745C22ED435E00BB643D /* ContactWithStatus.m */; };
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		346F4C7EF2CC6DBDF6D0E2DC /* libPods-ContactFriendMakingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContactFriendMakingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		532FE35D22EC4189003E4726 /* ContactInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactInstance.h; sourceTree = "<group>"; };
 		532FE35E22EC41A1003E4726 /* ContactInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactInstance.m; sourceTree = "<group>"; };
 		532FE36022EC4EC8003E4726 /* PermissionStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermissionStatus.h; sourceTree = "<group>"; };
@@ -44,6 +47,10 @@
 		5332745922ED42F200BB643D /* ContactBusiness.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactBusiness.m; sourceTree = "<group>"; };
 		5332745B22ED435000BB643D /* ContactWithStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactWithStatus.h; sourceTree = "<group>"; };
 		5332745C22ED435E00BB643D /* ContactWithStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactWithStatus.m; sourceTree = "<group>"; };
+		676E24078C09377FC916EC77 /* Pods-ContactFriendMakingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactFriendMakingTests.debug.xcconfig"; path = "Target Support Files/Pods-ContactFriendMakingTests/Pods-ContactFriendMakingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		799824103A4C660BA9311C23 /* Pods-ContactFriendMakingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactFriendMakingTests.release.xcconfig"; path = "Target Support Files/Pods-ContactFriendMakingTests/Pods-ContactFriendMakingTests.release.xcconfig"; sourceTree = "<group>"; };
+		96AE45F8077E874D336A7894 /* Pods-ContactFriendMaking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactFriendMaking.debug.xcconfig"; path = "Target Support Files/Pods-ContactFriendMaking/Pods-ContactFriendMaking.debug.xcconfig"; sourceTree = "<group>"; };
+		9C5D9994D6F17FD6034C9B8A /* libPods-ContactFriendMaking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContactFriendMaking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E129D222EAFCC30021186A /* IconCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconCollectionViewCell.h; sourceTree = "<group>"; };
 		C2E129D322EAFCC30021186A /* IconCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconCollectionViewCell.m; sourceTree = "<group>"; };
 		C2EA45BC22E559F900236887 /* ContactFriendMaking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactFriendMaking.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +80,7 @@
 		C2FF5B5922EE9BA1003068C9 /* StatusApplied.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusApplied.h; sourceTree = "<group>"; };
 		C2FF5B5A22EEB422003068C9 /* ContactUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactUtility.h; sourceTree = "<group>"; };
 		C2FF5B5B22EEB437003068C9 /* ContactUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactUtility.m; sourceTree = "<group>"; };
+		D75137D55FEC10B527CC4304 /* Pods-ContactFriendMaking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactFriendMaking.release.xcconfig"; path = "Target Support Files/Pods-ContactFriendMaking/Pods-ContactFriendMaking.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2411BAC0DA67BA9BD1E67031 /* libPods-ContactFriendMaking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,12 +96,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A928922428BB69ACEE444CC /* libPods-ContactFriendMakingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1705310B68F41A6F71A49AAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96AE45F8077E874D336A7894 /* Pods-ContactFriendMaking.debug.xcconfig */,
+				D75137D55FEC10B527CC4304 /* Pods-ContactFriendMaking.release.xcconfig */,
+				676E24078C09377FC916EC77 /* Pods-ContactFriendMakingTests.debug.xcconfig */,
+				799824103A4C660BA9311C23 /* Pods-ContactFriendMakingTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		532FE35A22EC4021003E4726 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +166,8 @@
 				C2EA45BE22E559F900236887 /* ContactFriendMaking */,
 				C2EA45D722E559FA00236887 /* ContactFriendMakingTests */,
 				C2EA45BD22E559F900236887 /* Products */,
+				1705310B68F41A6F71A49AAF /* Pods */,
+				C5DED7BEA3335AB349AB5259 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,6 +223,15 @@
 			path = ABAddressBookComponent;
 			sourceTree = "<group>";
 		};
+		C5DED7BEA3335AB349AB5259 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C5D9994D6F17FD6034C9B8A /* libPods-ContactFriendMaking.a */,
+				346F4C7EF2CC6DBDF6D0E2DC /* libPods-ContactFriendMakingTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -206,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2EA45DD22E559FA00236887 /* Build configuration list for PBXNativeTarget "ContactFriendMaking" */;
 			buildPhases = (
+				81095712DBC6DCFCDE66EF53 /* [CP] Check Pods Manifest.lock */,
 				C2EA45B822E559F900236887 /* Sources */,
 				C2EA45B922E559F900236887 /* Frameworks */,
 				C2EA45BA22E559F900236887 /* Resources */,
@@ -223,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2EA45E022E559FA00236887 /* Build configuration list for PBXNativeTarget "ContactFriendMakingTests" */;
 			buildPhases = (
+				9A7B3B3773C91009FAF0B993 /* [CP] Check Pods Manifest.lock */,
 				C2EA45D022E559FA00236887 /* Sources */,
 				C2EA45D122E559FA00236887 /* Frameworks */,
 				C2EA45D222E559FA00236887 /* Resources */,
@@ -293,6 +328,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81095712DBC6DCFCDE66EF53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactFriendMaking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7B3B3773C91009FAF0B993 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactFriendMakingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C2EA45B822E559F900236887 /* Sources */ = {
@@ -467,6 +549,7 @@
 		};
 		C2EA45DE22E559FA00236887 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AE45F8077E874D336A7894 /* Pods-ContactFriendMaking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +566,7 @@
 		};
 		C2EA45DF22E559FA00236887 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75137D55FEC10B527CC4304 /* Pods-ContactFriendMaking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +583,7 @@
 		};
 		C2EA45E122E559FA00236887 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676E24078C09377FC916EC77 /* Pods-ContactFriendMakingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +602,7 @@
 		};
 		C2EA45E222E559FA00236887 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799824103A4C660BA9311C23 /* Pods-ContactFriendMakingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
